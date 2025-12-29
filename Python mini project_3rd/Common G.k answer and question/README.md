@@ -1,19 +1,41 @@
-# Common General Knowledge one word answer question.
-
+# General Knowledge Quiz Game (Python).
 A beginner mini python project to update flow chart and add loop statement, range() function
-It is a quiz game, if anynone feel bore. So, just play it
-It is based on something G.K Quiz.
+It is a quiz game.
+The quiz includes MCQ and text-based questions with a time limit, sound effects,
+and voice feedback.
 
-## Concept Used
+---
+
+# 🔹 Features
+- MCQ and one-word/text answer questions
+- 15 seconds time limit for each question
+- Sound effects for correct, wrong, and time-over answers
+- Text-to-speech voice feedback
+- Score calculation at the end
+
+---
+
+# 🔹 Concepts Used
 - Input / Output
-- Flowchart
-- Loop statement
-- Range() function
-- Sound
-- Timing
+- Loops and range()
+- Lists and dictionaries
+- Time module
+- Sound effects
+- Conditional statements
 
-# How to Run
-General_Knowledge.py
+---
 
-## Author
+# 🔹 Requirements
+- Python 3.x
+- Windows OS (for `winsound`)
+
+Install required library:
+```bash
+pip install pyttsx3
+```
+
+# 🔹 How to Run 
+python General_Knowledge.py
+
+# 🔹 Author
 17 y/o beginner python learner
