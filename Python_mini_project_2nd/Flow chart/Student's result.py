@@ -5,69 +5,69 @@
 print('What is your name and  Roll no.?')
 name = input('Name = ')
 Roll_no = input('Roll no. = ')
+    
 print('\n')
 
 print('English F.M = 100')
 while True:
-    english_marks = input('Obtained marks = ')
-    my_english_marks = int(english_marks)
-    if my_english_marks > 100:
-        continue
-    if my_english_marks <= 100:
-        break
-    if my_english_marks >= 40:
-        print('Pass')
+
+    English_marks = int(input('Obtained marks = '))
+    if 0 <= English_marks <= 100:
+        break       
+    else:
+        print("Invalid marks! Enter again.")
+
+if English_marks >= 40:
+        print('English Pass')
 else:
-    print('Fail')
+        print('English Fail')
 print('\n')
 
 print('Hindi F.M = 100')
 while True:
-    hindi_marks = input('Obtained marks = ')
-    my_hindi_marks = int(hindi_marks)
-    if my_hindi_marks > 100:
-        continue
-    if my_hindi_marks <= 100:
+    Hindi_marks = int(input('Obtained marks = '))
+    if 0 <= Hindi_marks <= 100:
         break
-    if my_hindi_marks >= 40:
-        print('Pass')
     else:
+        print("Invalid marks!, Enter again")
+   
+if Hindi_marks >= 40:
+        print('Pass')
+else:
         print('Fail')
 print('\n')
 
 print('Math F.M. = 100')
 while True:
-    math_marks = input('Obtained marks = ')
-    my_math_marks = int(math_marks)
-    if my_math_marks > 100:
-        continue
-    if my_math_marks <= 100:
+    Math_marks = int(input('Obtained marks = '))
+    if 0 <= Math_marks <= 100:
         break
-    if my_math_marks >= 40:
-        print('Pass')
     else:
+        print("Invalid marks!, Enter again")
+   
+if Math_marks >= 40:
+        print('Pass')
+else:
         print('Fail')
 print('\n')
 
 
 print('Physics Theory F.M. = 70')
 while True:
-    physics_theory = input('Obtained marks = ')
-    physics_theory_marks = int(physics_theory)
-    if physics_theory_marks > 70:
-        continue
-    if physics_theory_marks <= 70:
+    Physics_theory = int(input('Obtained marks = '))
+    if 0 <= Physics_theory <= 70:
         break
+    else:
+        print("Invalid marks!, Enter again")
 print('P_Practical F.M. = 30')
 while True:
-    p_practical = input('P_Practical marks = ')
-    p_practical_marks = int(p_practical)
-    if p_practical_marks > 30:
-        continue
-    if p_practical_marks <= 30:
+    P_Practical = int(input('P_Practical marks = '))
+    if 0 <= P_Practical <= 30:
         break
-my_physics_marks = physics_theory_marks + p_practical_marks 
-if my_physics_marks >= 40:
+    else:
+        print("Invalid marks!, Enter again")
+Physics_marks = Physics_theory + P_Practical
+if Physics_marks >= 40:
     print('Pass')
 else:
     print('Fail')
@@ -75,22 +75,20 @@ print('\n')
 
 print('Chemistry Theory F.M. = 70')
 while True:
-    chemistry_theory = input('Obtained marks = ')
-    chemistry_theory_marks = int(chemistry_theory)
-    if chemistry_theory_marks > 70:
-        continue
-    if chemistry_theory_marks <= 70:
+    Chemistry_Theory = int(input("Chemistry Theory = "))
+    if 0 <= Chemistry_Theory <= 70:
         break
-print('C_parctical F.M. = 30')
+    else:
+        print("Invalid marks!, Enter again")
+print('C_Practical F.M. = 30')
 while True:
-    c_practical = input('C_Practical marks = ')
-    c_practical_marks = int(c_practical)
-    if c_practical_marks > 30:
-        continue
-    if c_practical_marks <= 30:
+    C_Practical = int(input('C_Practical = '))
+    if 0 <= C_Practical <= 30:
         break
-my_chemistry_marks = chemistry_theory_marks + c_practical_marks
-if my_chemistry_marks >= 40:
+    else:
+        print("Invalid marks!, Enter again")
+Chemistry_marks = Chemistry_Theory + C_Practical
+if Chemistry_marks >= 40:
     print('Pass')
 else:
     print('Fail')
@@ -99,24 +97,17 @@ print('\n')
 print('Full marks = 500')
 print('Passing marks = 150')
 print('\n')
-
-Obtained_marks =  my_english_marks + my_hindi_marks + my_math_marks + my_physics_marks + my_chemistry_marks
+Full_marks = 500
+Obtained_marks =  English_marks + Hindi_marks + Math_marks + Physics_marks + Chemistry_marks
 print('Total_Obtained_marks =',Obtained_marks)
-
-if Obtained_marks >= (700 <= 300):
+Percentage = (Obtained_marks / Full_marks) * 100
+print("Percentage =", Percentage, "%")
+print('\n')
+if 300 <=Obtained_marks <= 700:
     print('1st Division')
-elif Obtained_marks == (299 <= 225):
+elif 225<= Obtained_marks <= 299:
     print('2nd Division')
-elif Obtained_marks == (224 <= 150):
+elif 150<= Obtained_marks <= 224:
     print('3rd Division')
 else:
     print('Fail')
-
-
-
-
-
-
-
-
-
