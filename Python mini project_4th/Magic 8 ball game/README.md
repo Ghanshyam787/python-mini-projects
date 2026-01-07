@@ -1,5 +1,6 @@
 # 🔹 Project name - 8 Ball Magic Game
 
+# 🔹 Description
 A beginner 4th mini project to update function and loop statement.
 It is a fun game to find a correct number. If you found the correct number then you win.
 It is based on 'Return value and Return statement' and voice feedback.
@@ -27,4 +28,5 @@ pip install pyttsx3
 python Magic 8 Ball game.py
 
 # 🔹 Author:
+
 17 Y/o beginner python learner
