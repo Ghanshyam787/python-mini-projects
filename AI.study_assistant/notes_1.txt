@@ -1,0 +1,3 @@
+Energy is the ability to do work. It exists in various forms such as kinetic energy, potential energy, thermal energy, and electrical energy. Energy can be converted from one form to another but cannot be created or destroyed. This principle is known as the law of conservation of energy.
+Force is a push or pull that can change the motion of an object. It is measured in newtons and can cause an object to accelerate, stop, or change direction. There are different types of forces such as gravitational force, frictional force, and magnetic force.
+Energy and force are closely related in physics. For example, applying force to an object can transfer energy to it, causing it to move. These concepts are fundamental to understanding how the physical world works.
